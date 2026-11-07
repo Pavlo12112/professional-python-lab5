@@ -1,0 +1,14 @@
+input:
+  path: data/students.csv
+
+output:
+  path: output/students.json
+  errors_path: output/errors.csv
+
+processing:
+  minimum_grade: 60
+  skip_invalid: true
+
+logging:
+  level: INFO
+  path: logs/application.log
